@@ -1,0 +1,129 @@
+<!DOCTYPE HTML> 
+      <html>
+<head>
+            <title> COURSES</title>
+            <link rel="stylesheet" href="style.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+        </head>
+        <body>
+         <nav class="nav nav-pills flex-column flex-sm-row">
+              <a class="flex-sm-fill text-sm-center nav-link active" href="home.html">Home</a>
+                  <a class="flex-sm-fill text-sm-center nav-link" href="courses.html">Courses</a>
+                       <a class="flex-sm-fill text-sm-center nav-link" href="contact.html">Contact</a>
+                        </nav>
+
+                
+                <div class="h">
+                        <center>
+                                <img id="myimg" src="https://gomycode.tn/images/section2GMCLogo.png" class="img" >                      
+                                
+                        <br>
+                        <div class="back">
+                        <h1 style="color: white" class="title">courses</h1>
+                           
+                        </div></center>                     
+                    </div> 
+                    <center>
+                   <div class="all">
+                       
+                        <div id="ex1" class="modal">  
+                                <p> This is a GoMyCode Track. <br>
+                                    Each track has its own goal. <br>
+                                    By adopting this track, you chose your own goal.</p>
+                                 </div>         
+                    
+                            <div id="courses row">
+                       <div class="image12 col-sm-3 p7">
+                            <a href="#ex1" rel="modal:open">
+                            <button id="btn1">view more</button>  </a>
+                    </div>          
+                        <div class=" image4 col-sm-3 p7">
+                                <a href="#ex1" rel="modal:open">
+                                        <button id="btn1">view more</button>  </a>
+                        </div>
+                        <div class="image5 col-sm-3 p7">
+                                <a href="#ex1" rel="modal:open">
+                                        <button id="btn1">view more</button>  </a>
+                        </div>
+                </div>
+               <div id="courses2 row">
+               
+                    <div class="image6 col-sm-3 p7">
+                            <a href="#ex1" rel="modal:open">
+                                    <button id="btn1">view more</button>  </a>  
+                         </div>          
+                             <div class="image7 col-sm-3 p7">
+                                    <a href="#ex1" rel="modal:open">
+                                            <button id="btn1">view more</button>  </a>
+                             </div>
+                             <div class="image8 col-sm-3 p7">
+                                    <a href="#ex1" rel="modal:open">
+                                            <button id="btn1">view more</button>  </a>
+                             </div>
+                </div>
+             
+                 <div id="courses3 row">
+                        <div class="image9 col-sm-3 p7">
+                               
+                            <a href="#ex1" rel="modal:open">
+                                        <button id="btn1">view more</button>  </a>  
+                             </div>          
+                                 <div class="image10 col-sm-3 p7">
+                                        <a href="#ex1" rel="modal:open">
+                                                <button id="btn1">view more</button>  </a>
+                                 </div>
+                                 <div class="image11 col-sm-3 p7">
+                                        <a href="#ex1" rel="modal:open">
+                                                <button id="btn1">view more</button>  </a>
+                                 </div>
+                    </div>
+                </div>   
+</center>
+                   <br><br><br><br>
+                       <center><h1 style="color:white">Feedback</h1>  <br> 
+
+                      
+                    <button onclick="changeWeight()" class="bold bbtn">B</button>
+                    <button  onclick="changepolice()" class="ital bbtn">I</button>    
+                    <button onclick="makeitunder()" class="under bbtn">Underline</button>
+                    
+
+
+                <select id="sizee" onchange="PxOption()">
+                            <option value="20px">20Px</option>
+                            <option value="30px">30Px</option>
+                            <option value="40px">40Px</option>
+                        </select>
+
+            <select id="sizeee" onchange="Fontfamillyoption()">
+                 <option value="Arial"  >Arial</option>
+                 <option value="Vedrana">Vedrana</option>
+                 <option value="Geneva" >Geneva</option>
+                         </select>
+                         
+
+                             <form>
+                                    <br>
+                                    <textarea cols="58" rows="5" id="myText"></textarea>
+                                </form>
+                                <br><br><br><br>
+        </center> 
+        <div id="ex1" class="modal">
+                <p>This is GoMyCode Track.
+                        Each track has its own goal.
+                        By adopting this track, you chose your own goal.</p>
+                <a href="#" rel="modal:close">Close</a>
+              </div>
+        </body>
+       
+
+        <script src="main.js"></script>
+
+  
+              </html>
